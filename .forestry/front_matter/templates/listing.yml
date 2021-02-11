@@ -44,4 +44,4 @@ fields:
   label: Location Scout
   description: Images to show the location in more detail
 pages:
-- listings/revelry.md
+- listings/stuff.md
