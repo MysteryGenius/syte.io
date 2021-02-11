@@ -6,9 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: authors
+  label: Team
   create: documents
-  match: authors/*
+  match: team/*
 - type: directory
   path: ''
   label: Listings
