@@ -5,14 +5,14 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: content/team
   label: Team
   create: documents
   match: team/*
   templates:
   - authors
 - type: directory
-  path: listings
+  path: content/listings
   label: Listings
   create: documents
   match: vendors/*
