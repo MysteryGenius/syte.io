@@ -1,4 +1,45 @@
 ---
 label: Listing
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: splash_image
+  type: file
+  config:
+    maxSize: 64
+  label: Splash Image
+  description: Image used by the listing
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: affordability
+  type: select
+  default: "$"
+  config:
+    required: true
+    options:
+    - "$"
+    - "$$"
+    - "$$$"
+    - "$$$$"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Affordability
+- name: location_scout
+  type: image_gallery
+  config: {}
+  label: Location Scout
+  description: Images to show the location in more detail
