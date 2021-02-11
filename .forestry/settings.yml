@@ -9,6 +9,8 @@ sections:
   label: Team
   create: documents
   match: team/*
+  templates:
+  - authors
 - type: directory
   path: ''
   label: Listings
