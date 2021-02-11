@@ -12,10 +12,10 @@ sections:
   templates:
   - authors
 - type: directory
-  path: ''
+  path: listings
   label: Listings
   create: documents
-  match: listings/*
+  match: vendors/*
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
