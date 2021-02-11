@@ -4,11 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: ''
+- type: document
+  path: Listings
   label: Listings
-  create: documents
-  match: listings/*
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
