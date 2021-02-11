@@ -44,5 +44,4 @@ fields:
   label: Location Scout
   description: Images to show the location in more detail
 pages:
-- revelry.md
-- splash-cafe.md
+- listings/revelry.md
