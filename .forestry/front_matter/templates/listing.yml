@@ -45,3 +45,4 @@ fields:
   description: Images to show the location in more detail
 pages:
 - content/listings/revelry.md
+- content/listings/tittletattle.md
