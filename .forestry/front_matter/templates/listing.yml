@@ -43,5 +43,3 @@ fields:
   config: {}
   label: Location Scout
   description: Images to show the location in more detail
-pages:
-- listings/stuff.md
