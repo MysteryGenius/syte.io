@@ -12,7 +12,7 @@ sections:
   templates:
   - authors
 - type: directory
-  path: listings
+  path: ''
   label: Listings
   create: documents
   match: listings/*
