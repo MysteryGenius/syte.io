@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: ''
+  label: authors
+  create: documents
+  match: authors/*
+- type: directory
+  path: ''
   label: Listings
   create: documents
   match: listings/*
