@@ -1,3 +1,5 @@
+import path from "path";
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -48,6 +50,18 @@ export default {
     },
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    /*
+     ** Using frontmatter-markdown-loader here to parse md files
+     */
+    extend(config, ctx) {  
+      config.module.rules.push(
+      {
+          test: /\.md$/,
+          loader: "frontmatter-markdown-loader",
+          include: path.resolve(__dirname, "content/listings")
+      })
+    }    
+  },
+
 }
