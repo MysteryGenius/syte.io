@@ -15,7 +15,7 @@ sections:
   path: content/listings
   label: Listings
   create: documents
-  match: vendors/*
+  match: "*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
