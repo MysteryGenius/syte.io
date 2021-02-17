@@ -11,14 +11,19 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/firebase": "^7.4.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
+    "firebase": "^8.2.7",
     "frontmatter-markdown-loader": "^3.6.2",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^3.4.2"
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "autoprefixer": "9",
+    "postcss": "7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

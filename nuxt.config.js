@@ -16,7 +16,9 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+  '~/assets/main.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -26,8 +28,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
@@ -38,6 +38,22 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyD2WdHpRicjVUIup_BvWJ14OKAVWRRgUMU",
+          authDomain: "syte-demo.firebaseapp.com",
+          projectId: "syte-demo",
+          storageBucket: "syte-demo.appspot.com",
+          messagingSenderId: "578328555870",
+          appId: "1:578328555870:web:5e045e6a9eebffce369fcf"
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

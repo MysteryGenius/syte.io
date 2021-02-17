@@ -1,6 +1,45 @@
 <template>
   <div class="container mx-auto">
-    <Listing :listings="listings"/>
+    <!-- <Listing :listings="listings"/> -->
+  <div class="bg-white">
+    <div class="relative overflow-hidden">
+      <main>
+        <div class="pt-10 bg-pink-50 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden z-0 h-screen">
+          <div class="mx-auto max-w-7xl lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+              <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+                <div class="lg:py-24">
+                  <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-gray-900 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                    <span class="block">A better way to</span>
+                    <span class="bg-clip-text leading-relaxed text-transparent bg-gradient-to-r from-yellow-200 to-red-400 block">study out</span>
+                  </h1>
+                  <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                    we all have trouble looking for empty spaces to study
+                  </p>
+                  <div class="mt-10 sm:mt-12">
+                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
+                      <div class="sm:flex">
+                        <div class="mt-3 sm:mt-0">
+                          <button class="block w-full py-2 px-20 button">Book now</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+                <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+                  <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="~/assets/svg/splash.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
   </div>
 </template>
 
