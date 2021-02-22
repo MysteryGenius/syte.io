@@ -1,16 +1,16 @@
 <template>
     <header class="relative">
       <div class="bg-pink-50 pt-8">
-        <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
+        <nav class="relative max-w-7xl mx-auto items-center justify-between px-4 sm:px-6 md:flex hidden" aria-label="Global">
           <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full md:w-auto">
               <NuxtLink to="/">
-                <span class="sr-only">Workflow</span>
-                <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg" alt=""> -->
+                <span class="sr-only">syte.</span>
+                <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/syte.-mark-teal-200-cyan-400.svg" alt=""> -->
                 <h1 class="logo">syte.</h1>
               </NuxtLink>
               <div class="-mr-2 flex items-center md:hidden">
-                <button type="button" class="bg-pink-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-gray-700" id="main-menu" aria-haspopup="true">
+                <button type="button" class="bg-pink-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400" id="main-menu" aria-haspopup="true">
                   <span class="sr-only">Open main menu</span>
                   <!-- Heroicon name: outline/menu -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -33,9 +33,11 @@
       <div class="absolute top-0 inset-x-0 transition transform origin-top md:hidden z-50">
         <div class="bg-pink-50">
           <div class="px-5 pt-4 flex items-center justify-between">
-            <div>
-              <h1 class="logo">syte.</h1>
-            </div>
+            <NuxtLink to="/">
+                <span class="sr-only">syte.</span>
+                <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/syte.-mark-teal-200-cyan-400.svg" alt=""> -->
+                <h1 class="logo">syte.</h1>
+              </NuxtLink>
             <div class="flex items-center md:hidden">
               <!-- Mobile menu button -->
               <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400" aria-expanded="false">
@@ -63,7 +65,7 @@
               <div class="px-2 space-y-1" role="none">
                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">About</a>
 
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Locations</a>
+                <NuxtLink to="/location" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Locations</NuxtLink>
 
                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Contact</a>
               </div>
