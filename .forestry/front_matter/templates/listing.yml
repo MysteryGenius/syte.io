@@ -15,7 +15,7 @@ fields:
   description: Image used by the listing
 - name: description
   type: textarea
-  default: ''
+  default: This is a location for syte
   config:
     required: true
     wysiwyg: true
@@ -58,5 +58,15 @@ fields:
     labelField: 
   label: Slots
   description: Populate with slots
+- name: address
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Address
+  description: Address for the location
 pages:
 - content/listings/sueno.md
