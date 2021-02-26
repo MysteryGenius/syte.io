@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-syte-pink">
     <Header />
     <Nuxt />
     <Footer />

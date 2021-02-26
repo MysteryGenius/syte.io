@@ -1,8 +1,8 @@
 .logo {
   @apply font-bold text-4xl;
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 900;
-  color: #646464;
+  color: #404040;
   letter-spacing: 0.1em;
 }
 
@@ -28,6 +28,14 @@
 
 .bg-syte-orange {
   background-color: #FF6F52;
+}
+
+.syte-pink {
+  color: #FEF8F8;
+}
+
+.bg-syte-pink {
+  background-color: #FEF8F8;
 }
 
 .syte-white {
@@ -106,7 +114,7 @@
   margin-bottom: 5px;
   position: relative;
   
-  background: white;
+  background: gray;
   border-radius: 3px;
   
   z-index: 1;

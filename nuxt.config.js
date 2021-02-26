@@ -50,13 +50,20 @@ export default {
         config: {
           apiKey: "AIzaSyD2WdHpRicjVUIup_BvWJ14OKAVWRRgUMU",
           authDomain: "syte-demo.firebaseapp.com",
+          databaseURL: "https://syte-demo-default-rtdb.firebaseio.com",
           projectId: "syte-demo",
           storageBucket: "syte-demo.appspot.com",
           messagingSenderId: "578328555870",
-          appId: "1:578328555870:web:5e045e6a9eebffce369fcf"
+          appId: "1:578328555870:web:5e045e6a9eebffce369fcf",
+          measurementId: "G-1712FGEEFV"
         },
         services: {
-          auth: true // Just as example. Can be any other service.
+          analytics: {
+            collectionEnabled: true // default
+          },
+          firestore: {
+            memoryOnly: false, // default
+          }
         }
       }
     ]

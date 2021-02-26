@@ -1,6 +1,6 @@
 <template>
     <header class="relative">
-      <div class="bg-pink-50 pt-8">
+      <div class="bg-syte-pink pt-8">
         <nav class="relative max-w-7xl mx-auto items-center justify-between px-4 sm:px-6 md:flex hidden" aria-label="Global">
           <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full md:w-auto">
@@ -10,7 +10,7 @@
                 <h1 class="logo">syte.</h1>
               </NuxtLink>
               <div class="-mr-2 flex items-center md:hidden">
-                <button type="button" class="bg-pink-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400" id="main-menu" aria-haspopup="true">
+                <button type="button" class="bg-syte-pink rounded-md p-2 inline-flex items-center justify-center text-gray-400" id="main-menu" aria-haspopup="true">
                   <span class="sr-only">Open main menu</span>
                   <!-- Heroicon name: outline/menu -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -31,7 +31,7 @@
       </div>
 
       <div class="absolute top-0 inset-x-0 transition transform origin-top md:hidden z-50">
-        <div class="bg-pink-50">
+        <div class="bg-syte-pink">
           <div class="px-5 pt-4 flex items-center justify-between">
             <NuxtLink to="/">
                 <span class="sr-only">syte.</span>
@@ -61,7 +61,7 @@
             leave-class="opacity-100 scale-x-100"
             leave-to-class="opacity-0 scale-x-50"
           >
-            <div class="bg-pink-50 shadow-lg" role="menu" aria-orientation="vertical" aria-labelledby="main-menu" v-show="menuOpen">
+            <div class="bg-syte-pink shadow-lg" role="menu" aria-orientation="vertical" aria-labelledby="main-menu" v-show="menuOpen">
               <div class="px-2 space-y-1" role="none">
                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">About</a>
 

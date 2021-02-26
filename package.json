@@ -16,7 +16,8 @@
     "core-js": "^3.8.3",
     "firebase": "^8.2.7",
     "frontmatter-markdown-loader": "^3.6.2",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue2-datepicker": "^3.9.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-pink-50 py-8">
+	<div class="bg-pink-50 py-8 z-0">
 		<Listing :listings=listings></Listing>
 	</div>
 </template>
