@@ -131,6 +131,7 @@
 					bookingDate: this.bookingDate,
 					bookingTime: this.bookingTime,
 					createDatetime: new Date(),
+					locationName: this.listing.title,
 				})
 				.then(function(res) {
             console.log("Document successfully written!");
