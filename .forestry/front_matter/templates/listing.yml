@@ -69,4 +69,5 @@ fields:
   label: Address
   description: Address for the location
 pages:
+- content/listings/flock-cafe.md
 - content/listings/sueno.md
