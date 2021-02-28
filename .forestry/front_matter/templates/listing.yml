@@ -73,6 +73,16 @@ fields:
   config:
     required: false
   label: Instagram Post
+- name: promotions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Promotions
+  description: Any promotions to lure users
 pages:
 - content/listings/flock-cafe.md
 - content/listings/sueno.md
