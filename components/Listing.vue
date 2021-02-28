@@ -5,7 +5,9 @@
       <li class="col-span-1 md:flex-row flex-col flex shadow-md rounded-3xl max-w-4xl" 
         v-for="listing in listings" 
         :key="listing.attributes.title" >
-        <img class="flex-shrink-0 flex items-center justify-center md:max-w-xs md:rounded-l-3xl" src="~/assets/images/cafe.jpg" alt="Cover image of the cafe">
+        <img class="flex-shrink-0 flex items-center justify-center md:max-w-xs md:rounded-l-3xl" src="~/assets/images/cafe.jpg" alt="Cover image of the cafe" 
+          v-if="listing.attributes.splash_image.length === 0">
+        <img class="flex-shrink-0 flex items-center justify-center md:max-w-xs md:rounded-l-3xl" :src="require(`@/${listing.attributes.splash_image}`)" alt="Cover image of the cafe" v-else>
         <div class="flex-1 flex border-gray-200 bg-white md:rounded-r-3xl p-4">
           <div class="flex-1 px-4 py-2 text-sm truncate justify-between h-full flex flex-col space-y-4">
             <p class="flex justify-between">

@@ -6,7 +6,7 @@ description: "Located in the heart Tiong Bahru, lies a quiet cafe named 'Flock C
   seat on the days you're coming to visit. "
 affordability: "$$"
 title: Flock Cafe
-splash_image: "/uploads/flockc.jpeg"
+splash_image: "assets/images/flockc.jpeg"
 location_scout: []
 slots:
 - slot: Mon-Thur, 2pm-4pm
