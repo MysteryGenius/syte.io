@@ -15,6 +15,10 @@
 			  	<p class="text-md mb-4">
 			  		{{listing.address}}
 			  	</p>
+			  	<h4 class="font-bold mb-4"  v-if="listing.promotions.length !== 0">Got discount anot?</h4>
+			  	<p class="text-md mb-4" v-if="listing.promotions.length !== 0">
+			  		{{listing.promotions}}
+			  	</p>
 			  	<h4 class="font-bold mb-4">When can I study/work there?</h4>
 			  	<p class="text-md mb-6">
 			  		<span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800" 
