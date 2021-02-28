@@ -14,7 +14,7 @@
             </p>
             <p class="text-gray-500">{{ listing.attributes.address }}</p>
             <NuxtLink :to="{ name: 'locations-title', params: { title: listing.attributes.title.toLowerCase() }}">
-              <button class="block w-full py-1 px-20 button">Book now</button>
+              <button class="block w-full py-1 px-20 button">Learn more...</button>
             </NuxtLink>
           </div>
         </div>
