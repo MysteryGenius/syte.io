@@ -23,7 +23,7 @@
               {{slot.slot}}
             </span>
 			  	</p>
-			  	<NuxtLink :to="{ name: 'booking-title', params: { title: listing.title.toLowerCase() }}">
+			  	<NuxtLink :to="{ name: 'booking-title', params: { title: listing.title.toLowerCase().replace(' ','-') }}">
 				  	<button class="block w-full py-1 px-20 button">Book now</button>
 				  </NuxtLink>	
 		  	</div>
@@ -42,7 +42,7 @@ export default {
 
     const filteredLocation = listings.find(
       (el) =>
-        el.attributes.title.toLowerCase() === params.title.toLowerCase()
+        el.attributes.title.toLowerCase() === params.title.toLowerCase().replace('-',' ')
     )
     return {
       listing: filteredLocation.attributes

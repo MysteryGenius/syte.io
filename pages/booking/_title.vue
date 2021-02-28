@@ -115,7 +115,7 @@
 
 	    const filteredLocation = listings.find(
 	      (el) =>
-	        el.attributes.title.toLowerCase() === params.title.toLowerCase()
+	        el.attributes.title.toLowerCase() === params.title.toLowerCase().replace('-',' ')
 	    )
 	    return {
 	      listing: filteredLocation.attributes

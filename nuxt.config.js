@@ -10,7 +10,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'A better way to study' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -77,8 +77,8 @@ export default {
     manifest: {
       name: 'syte.',
       lang: 'en',
-      theme_color:'#ffffff',
-      background_color:' #ffffff',
+      theme_color:'#FEF8F8',
+      background_color:' #FEF8F8',
       display: 'standalone',
       icons: [
         {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},

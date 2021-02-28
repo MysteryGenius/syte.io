@@ -15,7 +15,7 @@
               <span class="px-2 py-2 text-yellow-800 text-xs font-medium bg-yellow-200 rounded-full">{{ listing.attributes.affordability }}</span>
             </p>
             <p class="text-gray-500">{{ listing.attributes.address }}</p>
-            <NuxtLink :to="{ name: 'locations-title', params: { title: listing.attributes.title.toLowerCase() }}">
+            <NuxtLink :to="{ name: 'locations-title', params: { title: listing.attributes.title.toLowerCase().replace(' ','-') }}">
               <button class="block w-full py-1 px-20 button">Learn more...</button>
             </NuxtLink>
           </div>

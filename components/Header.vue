@@ -1,6 +1,6 @@
 <template>
-    <header class="relative">
-      <div class="bg-syte-pink pt-8">
+    <header class="relative bg-syte-pink">
+      <div class="pt-8">
         <nav class="relative max-w-7xl mx-auto items-center justify-between px-4 sm:px-6 md:flex hidden" aria-label="Global">
           <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full md:w-auto">
