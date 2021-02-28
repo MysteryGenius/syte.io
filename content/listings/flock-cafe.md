@@ -7,16 +7,11 @@ description: "Located in the heart Tiong Bahru, lies a quiet cafe named 'Flock C
 affordability: "$$"
 title: Flock Cafe
 splash_image: "/uploads/flockc.jpeg"
-location_scout:
-- "/uploads/f6.jpeg"
-- "/uploads/f4.jpeg"
-- "/uploads/f2.jpeg"
-- "/uploads/f7.jpeg"
-- "/uploads/f3.jpeg"
-- "/uploads/f1.jpeg"
+location_scout: []
 slots:
 - slot: Mon-Thur, 2pm-4pm
 - slot: Mon-Thur, 12pm-2pm
 address: "#01-25 Tiong Bahru Estate, Moh Guan Terrace, Block 78, 162078"
+instagram_post: ''
 
 ---

@@ -68,6 +68,11 @@ fields:
       format: markdown
   label: Address
   description: Address for the location
+- name: instagram_post
+  type: text
+  config:
+    required: false
+  label: Instagram Post
 pages:
 - content/listings/flock-cafe.md
 - content/listings/sueno.md
