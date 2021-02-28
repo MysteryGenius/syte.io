@@ -8,5 +8,7 @@ location_scout: []
 slots:
 - slot: Weekdays, 9am to 5pm
 address: '50, #01-753 Woodlands Drive 50, 888 plaza, 730888'
+instagram_post: ''
+promotions: Only if you're @suenomon
 
 ---
