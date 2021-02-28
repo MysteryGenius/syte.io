@@ -5,6 +5,7 @@ title: Flock Cafe
 splash_image: "/uploads/flockc.jpeg"
 location_scout: []
 slots:
+- slot: Mon-Thur, 2pm-4pm
 - slot: Mon-Thurs, 12pm-2pm
 address: "#01-25 Tiong Bahru Estate, Moh Guan Terrace, Block 78, 162078"
 
