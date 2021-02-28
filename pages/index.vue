@@ -1,7 +1,6 @@
 <template>
-  <div class="container mx-auto z-0">
+  <div class="container mx-auto z-0 bg-syte-pink">
     <!-- <Listing :listings="listings"/> -->
-  <div class="bg-syte-pink">
     <div class="relative overflow-hidden">
       <main>
         <div class="pt-10 bg-pink-50 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden z-0 h-screen">
@@ -40,8 +39,6 @@
         </div>
       </main>
     </div>
-  </div>
-
   </div>
 </template>
 
