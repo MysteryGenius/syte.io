@@ -85,5 +85,6 @@ fields:
   description: Any promotions to lure users
 pages:
 - content/listings/flock-cafe.md
+- content/listings/seeyoulatte.md
 - content/listings/sueno.md
 - content/listings/tittletattle.md
