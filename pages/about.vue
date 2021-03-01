@@ -8,6 +8,16 @@
 		  	</div>
 		  	<div class="p-6">
 		  		<h4 class="font-bold mb-4">Who are we?</h4>
+		  		<p class="mb-4">We are students frustrated with the lack of study spaces in Singapore.</p>
+		  		<p class="mb-4">
+		  			With that being a constant problem in both our <span class="bg-gradient-to-r from-blue-100 to-purple-200">Junior College, Polytechnic and University life</span>, we feel that this is a constant problem that students like us face & are in dire need of a solution.
+		  		</p>
+		  		<p class="mb-4">
+		  			Syte. was born after a visit to one of the local cafes in the Upper Serangoon area. Breathing in the fresh brew & being surrounded in a cafe style ambiance, cafes are the new hotspots. 
+		  		</p>
+					<p class="mb-4">
+						Study with us, let’s change the study environment in Singapore & support locals instead !
+					</p>
 		  	</div>
 		  </article>
 		</div>

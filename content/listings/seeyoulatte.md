@@ -6,7 +6,7 @@ description: "Looking for a quiet, yet scenic cafe to spend some time with your 
   recommend trying their ice blended drinks...espescially the Hazelnut."
 affordability: "$"
 title: SeeYouLatte
-splash_image: assets/images/screenshot-2021-03-01-at-10-47-26-pm.png
+splash_image: assets/images/seeyoulatte.png
 location_scout: []
 slots:
 - slot: Mon-Wed, 2pm-3pm
