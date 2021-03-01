@@ -5,7 +5,7 @@ description: |-
   Booked slots have up to 10min grace time, do pm us/email if you're running late.
 affordability: "$$"
 title: Flock Cafe
-splash_image: uploads/flockc.jpg
+splash_image: assets/images/flockc.jpg
 location_scout: []
 slots:
 - slot: Mon-Thur, 12pm-2pm
