@@ -3,7 +3,7 @@
     <!-- <Listing :listings="listings"/> -->
     <div class="relative overflow-hidden">
       <main>
-        <div class="pt-10 bg-pink-50 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden z-0 h-screen">
+        <div class="pt-10 bg-syte-pink sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden z-0 h-screen">
           <div class="mx-auto max-w-7xl lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-8">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">

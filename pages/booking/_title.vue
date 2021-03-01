@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-pink-50 md:py-8 py-12">
+	<div class="bg-syte-pink md:py-8 py-12">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		  <article class="max-w-3xl mx-auto shadow-2xl rounded-2xl bg-white">
 		  	<div class="title">
