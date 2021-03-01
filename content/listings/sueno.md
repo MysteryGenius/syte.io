@@ -10,6 +10,7 @@ description: "A new cafe located at 888 Plaza, Woodlands ? Here, you can get a c
 location_scout: []
 slots:
 - slot: Mon-Thur, 12m to 2pm
+- slot: Mon-Thur, 2pm-4pm
 address: '50, #01-753 Woodlands Drive 50, 888 plaza, 730888'
 instagram_post: ''
 promotions: Only if you're @suenomon
