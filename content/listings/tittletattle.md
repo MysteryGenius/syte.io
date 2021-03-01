@@ -6,7 +6,7 @@ description: Overnight muggers/exam studyholics, fret not we had finally found a
   your friends over food & drinks or to hold a short discussion.
 affordability: "$$"
 title: TittleTattle
-splash_image: "/assets/images/screenshot-2021-03-01-at-9-07-08-pm.png"
+splash_image: "assets/images/screenshot-2021-03-01-at-9-07-08-pm.png"
 location_scout: []
 slots:
 - slot: Mon-Sun, 2pm-4pm

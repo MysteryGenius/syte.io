@@ -21,11 +21,11 @@
             </div>
           </div>
           <div class="hidden md:flex md:items-center md:space-x-12">
-            <a href="#" class="navlink">About</a>
+            <NuxtLink to="/about" class="navlink">About</NuxtLink>
 
             <NuxtLink to="/location" class="navlink">Locations</NuxtLink>
 
-            <a href="#" class="navlink">Contact</a>
+            <NuxtLink to="/contact" class="navlink">Contact</NuxtLink>
           </div>
         </nav>
       </div>
@@ -63,11 +63,11 @@
           >
             <div class="bg-syte-pink shadow-lg" role="menu" aria-orientation="vertical" aria-labelledby="main-menu" v-show="menuOpen">
               <div class="px-2 space-y-1" role="none">
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">About</a>
+                <NuxtLink to="/about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">About</NuxtLink>
 
                 <NuxtLink to="/location" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Locations</NuxtLink>
 
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Contact</a>
+                <NuxtLink to="/contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" role="menuitem">Contact</NuxtLink>
               </div>
             </div>
           </transition>
