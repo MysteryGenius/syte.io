@@ -1,8 +1,12 @@
 ---
-description: This is a location for syte
+description: "Looking for a quiet, yet scenic cafe to spend some time with your friends
+  or hold a discussion ? This cute little cafe holds all you need - wifi, chargers,
+  coffee & cakes. Here's the catch, due to limited slots, only 1hr of work time is
+  allowed to accommodate the flow of cafe-goers throughout the day.   \n  \nHighly
+  recommend trying their ice blended drinks...espescially the Hazelnut."
 affordability: "$"
 title: SeeYouLatte
-splash_image: ''
+splash_image: assets/images/screenshot-2021-03-01-at-10-47-26-pm.png
 location_scout: []
 slots:
 - slot: Mon-Wed, 2pm-3pm
