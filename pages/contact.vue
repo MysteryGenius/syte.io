@@ -7,8 +7,13 @@
 		  		<h3 class="font-extrabold bg-clip-text leading-relaxed text-transparent bg-gradient-to-r from-yellow-200 to-red-400 text-6xl text-6xl centered">Contact</h3>
 		  	</div>
 		  	<div class="p-6">
-		  		<h4 class="font-bold mb-4">Who are we?</h4>
-		  		
+		  		<h4 class="font-bold mb-4">Where can you find us?</h4>
+		  		<p class="mb-4">Visit our Instagram, <a href="https://www.instagram.com/syte.io/" class="text-blue-600 hover:text-blue-500" target="_blank">@syte.io</a> for more information, pictures and collaborations!</p>
+
+		  		<p class="mb-6">Follow our tiktok, <a href="https://www.tiktok.com/@syteio/" class="text-blue-600 hover:text-blue-500" target="_blank">@syte.io</a> for the location directions, interior & good food.</p>
+
+		  		<h4 class="font-bold mb-4">How can you contact us?</h4>
+		  		<p class="mb-6">Email us at <a href="mailto:hello@syte.sg?subject=Hello Syte!&body=Your message goes here!" class="text-blue-600 hover:text-blue-500">hello@syte.sg</a></p>
 		  	</div>
 		  </article>
 		</div>
