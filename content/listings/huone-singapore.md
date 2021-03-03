@@ -6,6 +6,7 @@ splash_image: assets/images/huone.jpeg
 location_scout: []
 slots:
 - slot: Mon-Thur, 10am-12pm
+- slot: Mon-Thur, 12pm-2pm
 - slot: Mon-Thur, 1pm-3pm
 - slot: Mon-Thur, 3pm-5pm
 address: '3D River Valley Rd, #03-01 Block D, Singapore 179023'
