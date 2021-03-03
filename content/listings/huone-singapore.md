@@ -1,5 +1,10 @@
 ---
-description: This is a location for syte
+description: "Located in Clarke Quay, Huone is known for their unique meeting rooms
+  targetted to corporate workers. However, we managed to come up with a short-term
+  partnership of studying/working in the colorful area as shown from the photos.   \n
+  \ \nThe package is prices at **$19++**:\n\n1. Fast Wifi Connection\n\n\n2. Power
+  Plugs\n3. 2hr Study sesh\n4. Free Flow house coffee/teas\n5. Complimentary Starbucks
+  Drink\n\n (Open up to 3slots a day, pm us on IG for any enquiries)"
 affordability: "$$"
 title: Huone Singapore
 splash_image: assets/images/huone.jpeg
