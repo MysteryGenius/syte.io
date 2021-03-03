@@ -84,6 +84,7 @@ fields:
   label: Promotions
   description: Any promotions to lure users
 pages:
+- content/listings/afterhours-study.md
 - content/listings/flock-cafe.md
 - content/listings/huone-singapore.md
 - content/listings/seeyoulatte.md
