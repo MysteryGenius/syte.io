@@ -9,6 +9,7 @@ splash_image: assets/images/screenshot-2021-03-03-at-6-50-53-pm.png
 location_scout: []
 slots:
 - slot: Mon-Sat, 5:30pm-10pm
+- slot: Sunday, 10:30am-10pm
 address: '400 Lengkok Bahru, #01-01, Singapore 159049
 
 '
