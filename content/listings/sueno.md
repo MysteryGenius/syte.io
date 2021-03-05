@@ -1,7 +1,7 @@
 ---
 affordability: "$"
 title: Sueno Cafe
-splash_image: "assets/images/suenoc.jpeg"
+splash_image: assets/images/suenoc.jpeg
 description: "A new cafe located at 888 Plaza, Woodlands ? Here, you can get a cup
   of coffee as low as $5 and/or a waffle set at $11.80. Minimalistic cafe interior
   & furniture for you to get some work done, be it at 2 in the afternoon or 8 at night.
@@ -12,7 +12,7 @@ slots:
 - slot: Mon-Thur, 12m to 2pm
 - slot: Mon-Thur, 2pm-4pm
 address: '50, #01-753 Woodlands Drive 50, 888 plaza, 730888'
-instagram_post: ''
+instagram_post: https://www.instagram.com/p/CLg9_emn_Uv/
 promotions: "Book with us to get 5% off you total bill. \n(T&C applies)"
 
 ---
