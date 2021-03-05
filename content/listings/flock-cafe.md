@@ -1,8 +1,7 @@
 ---
-description: |-
-  Located in the heart Tiong Bahru, lies a quiet cafe named 'Flock Cafe'. Surrounded by greenery which makes it a cozy environment be it to study or enjoy a cup of tea/coffee.
-
-  Booked slots have up to 10min grace time, do pm us/email if you're running late.
+description: Nestled in the heart of Tiong Bahru lies Flock Cafe, a quiet, family-run
+  cafe surrounded by greenery. Whether you’re there to study or enjoy a cup of tea/coffee,
+  Flock’s cozy atmosphere will be sure to make you feel at home.
 affordability: "$$"
 title: Flock Cafe
 splash_image: assets/images/flockc.jpg
