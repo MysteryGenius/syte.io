@@ -1,12 +1,12 @@
 ---
-description: Overnight muggers/exam studyholics, fret not we had finally found a place
-  where we could do a late night study sesh. Located at a shophouse near Rochor, sits
-  a retro-themed cafe with a jukebox named 'Tittle Tattle'. New in town with their
-  24h themed, cafe, bistro & bar. This is the perfect spot for you to hangout with
-  your friends over food & drinks or to hold a short discussion.
+description: Overnight muggers & exam studyholics rejoice! We’ve found you a place
+  to hold a late night study sesh. Located at a shophouse near Rochor sits Tittle
+  Tattle, a retro-themed cafe, bistro & bar. Open 24/7 and complete with a jukebox,
+  vintage leather furniture and neon lights, this is the perfect spot for you to hangout
+  with your friends over food & drinks or study the night away.
 affordability: "$$"
 title: TittleTattle
-splash_image: "assets/images/tittle.jpg"
+splash_image: assets/images/tittle.jpg
 location_scout: []
 slots:
 - slot: Mon-Sun, 2pm-4pm
