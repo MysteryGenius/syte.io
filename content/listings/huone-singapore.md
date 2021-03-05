@@ -16,6 +16,6 @@ slots:
 - slot: Mon-Thur, 3pm-5pm
 address: '3D River Valley Rd, #03-01 Block D, Singapore 179023'
 instagram_post: https://www.instagram.com/p/CKd2wwZn9eQ/
-promotions: "-"
+promotions: ""
 
 ---

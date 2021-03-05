@@ -3,7 +3,7 @@
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		  <article class="max-w-3xl mx-auto shadow-2xl rounded-2xl bg-white">
 		  	<div class="title">
-		  		<img class="rounded-t-2xl object-cover h-64 w-full darker" src="~/assets/images/cafe.jpg" alt="Cover image of the cafe">
+		  		<img class="rounded-t-2xl object-cover h-64 w-full darker" :src="require(`@/${listing.splash_image}`)" alt="Cover image of the cafe">
 		  		<h3 class="font-extrabold bg-clip-text leading-relaxed text-transparent bg-gradient-to-r from-yellow-500 to-red-400 text-6xl text-6xl centered">Booking!</h3>
 		  	</div>
 		  	<div class="p-6">

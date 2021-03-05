@@ -5,7 +5,7 @@ description: Afterhours is a co-working space targetted to students/freelancers 
   plugs & free flow of snacks. Book with syte to get a seat !
 affordability: "$"
 title: Afterhours Study
-splash_image: assets/images/screenshot-2021-03-03-at-6-50-53-pm.png
+splash_image: assets/images/afterhours.jpg
 location_scout: []
 slots:
 - slot: Mon-Sat, 5:30pm-10pm
