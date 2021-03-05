@@ -22,16 +22,19 @@
 			  	<h4 class="font-bold mb-4">When can I study/work there?</h4>
 			  	<p class="text-md mb-6">
 			  		<span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800" 
-			  		v-for="slot in listing.slots" 
-        		:key="slot">
+			  		v-for="{slot, idx} in listing.slots" 
+        		:key="idx">
               {{slot.slot}}
             </span>
 			  	</p>
 
-			  	<Embedo :toEmbed="listing.instagram_post"/>
+			  	<client-only placeholder="Loading instagram post...">
+			  		<!-- this component will only be rendered on client-side -->
+				  	<Embedo :toEmbed="listing.instagram_post"/>
+				  </client-only>	
 
 			  	<NuxtLink :to="{ name: 'booking-title', params: { title: listing.title.toLowerCase().replace(' ','-') }}">
-				  	<button class="block w-full py-1 px-20 button">Book now</button>
+				  	<button class="block w-full py-1 px-20 button mt-4">Book now</button>
 				  </NuxtLink>	
 		  	</div>
 		  </article>
