@@ -1,5 +1,5 @@
 <template>
-    <div v-html="graph">
+    <div v-html="graph" v-if="graph.length != 0">
     </div>
 </template>
 <script>
