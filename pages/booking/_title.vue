@@ -8,17 +8,27 @@
 		  	</div>
 		  	<div class="p-6">
 		  		<h4 class="font-bold mb-4">Booking for {{listing.title}}? We just need a few things from you!</h4>
-		  		<form class="space-y-6" @submit.prevent>
 
-		  			<div>
-		  				<p class="text-md mb-4">
+		  		<p v-if="errors.length">
+				    <h4 class="text-red-800 font-bold">Please correct the following error(s):</h4>
+				    <ul>
+				      <li v-for="error in errors" class="text-red-800 text-xs">{{ error }}</li>
+				    </ul>
+				  </p>
+
+		  		<form class="space-y-6" @submit="checkForm" novalidate="true">
+
+		  			<div class="mb-6">
+		  				<p class="text-md">
 		  					Remember to select timing within the location's available slots: 
-					  		<span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800" 
-					  		v-for="slot in listing.slots" 
-		        		:key="slot">
-		              {{slot.slot}}
-		            </span>
-					  	</p class="text-md mb-4">
+		  				</p>
+		  					<div>
+		  						<span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800" 
+						  		v-for="slot in listing.slots" 
+			        		:key="slot">
+			              {{slot.slot}}
+			            </span>
+		  					</div>
 					  	<p>Also do try to booking at least 3 days in advance</p>
 		  			</div>
 
@@ -81,9 +91,10 @@
 		          <div class="mt-1">
 		            <input v-model="visitors" id="visitors" name="visitors" type="number" step="1" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm z-0" placeholder="People you're bringing along">
 		          </div>
+		          <p class="text-xs text-gray-500">People you're bringing along including yourself</p>
 		        </div>
 
-		        <button class="block w-full py-1 px-20 button mt-4" type="submit" v-on:click="submitBooking()">Book now</button>
+		        <button class="block w-full py-1 px-20 button mt-4" type="submit">Book now</button>
 		      </form>
 			  	
 		  	</div>
@@ -99,9 +110,10 @@
 		components: { DatePicker },
 		data() {
       return {
+      	errors: [],
       	name: "",
       	email: "",
-      	visitors: "",
+      	visitors: 1,
       	bookingDate: "",
       	bookingTime: "",
       }
@@ -122,7 +134,35 @@
 	    }
 	  },
 	  methods: {
-	  	async submitBooking() {
+	  	checkForm: function (e) {
+	      this.errors = [];
+
+	      if (!this.name) {
+	        this.errors.push("Name required.");
+	      }
+	      if (!this.email) {
+	        this.errors.push('Email required.');
+	      } else if (!this.validEmail(this.email)) {
+	        this.errors.push('Valid email required.');
+	      }
+	      if (!this.bookingDate) {
+	        this.errors.push('Booking Date required.');
+	      } 
+	      if (!this.bookingTime) {
+	        this.errors.push('Booking Time required.');
+	      } 
+
+	      if (!this.errors.length) {
+	        this.processBooking()
+	      }
+
+	      e.preventDefault();
+	    },
+	    validEmail: function (email) {
+	      var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	      return re.test(email);
+	    },
+	  	async processBooking() {
 	  		const ref = this.$fire.firestore.collection('booking')
 				await ref.add({
 					name: this.name,
