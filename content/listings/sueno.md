@@ -12,7 +12,7 @@ slots:
 - slot: Mon-Thur, 12m to 2pm
 - slot: Mon-Thur, 2pm-4pm
 address: '50, #01-753 Woodlands Drive 50, 888 plaza, 730888'
-instagram_post: https://www.instagram.com/p/CLg9_emn_Uv/
+instagram_post: ''
 promotions: "Book with us to get 5% off you total bill. \n(T&C applies)"
 
 ---
