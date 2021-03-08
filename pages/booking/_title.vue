@@ -94,7 +94,7 @@
 		          <p class="text-xs text-gray-500">People you're bringing along including yourself</p>
 		        </div>
 
-		        <button class="block w-full py-1 px-20 button mt-4" type="submit">Book now</button>
+		        <button class="block w-full py-1 px-20 button mt-4" type="submit" :class="{ 'opacity-50 cursor-not-allowed': loading }">Book now</button>
 		      </form>
 			  	
 		  	</div>
@@ -111,6 +111,7 @@
 		data() {
       return {
       	errors: [],
+      	loading: false,
       	name: "",
       	email: "",
       	visitors: 1,
@@ -163,6 +164,7 @@
 	      return re.test(email);
 	    },
 	  	async processBooking() {
+	  		this.loading = true
 	  		const ref = this.$fire.database.ref('bookings')
 				await ref.push({
 					name: this.name,
@@ -178,6 +180,7 @@
             window.location.replace("/thanks");
         })
         .catch(function(error) {
+        		this.loading = false
             console.error("Error writing document: ", error);
         });
       },
