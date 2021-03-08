@@ -13,7 +13,7 @@
                     <span class="bg-clip-text leading-relaxed text-transparent bg-gradient-to-r from-yellow-200 to-red-400 block z-0">study out</span>
                   </h1>
                   <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    we all have trouble looking for empty spaces to study
+                    Trouble looking for available spaces to study? We hear you. And we are hear to help!
                   </p>
                   <div class="mt-10 sm:mt-12">
                     <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
