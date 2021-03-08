@@ -9,7 +9,7 @@
 		  	<div class="p-6">
 		  		<h4 class="font-bold mb-4">Booking for {{listing.title}}? We just need a few things from you!</h4>
 
-		  		<p v-if="errors.length">
+		  		<p v-if="errors.length != 0">
 				    <h4 class="text-red-800 font-bold">Please correct the following error(s):</h4>
 				    <ul>
 				      <li v-for="error in errors" class="text-red-800 text-xs">{{ error }}</li>
