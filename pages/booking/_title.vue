@@ -163,8 +163,8 @@
 	      return re.test(email);
 	    },
 	  	async processBooking() {
-	  		const ref = this.$fire.firestore.collection('booking')
-				await ref.add({
+	  		const ref = this.$fire.database.ref('bookings')
+				await ref.push({
 					name: this.name,
 					email: this.email,
 					visitors: this.visitors,

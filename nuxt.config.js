@@ -64,6 +64,9 @@ export default {
           },
           firestore: {
             memoryOnly: false, // default
+          },
+          database: {
+            
           }
         }
       }
