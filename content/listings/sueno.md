@@ -3,7 +3,7 @@ affordability: "$"
 title: Sueno Cafe
 splash_image: assets/images/suenoc.jpeg
 description: "A new cafe located at 888 Plaza, Woodlands. Here, you can get a cup
-  of coffee as low as $5, or a waffle, gelato and mocktail set at $11.80. Minimalistic
+  of coffee as low as $5, or a gelato waffle and mocktail set for $11.80. Minimalistic
   cafe interior & furniture for you to get some work done, be it at 2 in the afternoon
   or 8 at night.\n\nPros: Strong & fast Wi-Fi connection, Good drinks/desserts, Booking
   is up to 2hr  \nCons: Limited power plugs"
