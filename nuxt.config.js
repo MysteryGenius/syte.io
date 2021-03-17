@@ -84,6 +84,7 @@ export default {
       theme_color:'#FEF8F8',
       background_color:' #FEF8F8',
       display: 'standalone',
+      description: "A better way to study",
       icons: [
         {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
         {"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
