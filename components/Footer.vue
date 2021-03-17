@@ -6,6 +6,5 @@
           &copy; 2021 syte. All rights reserved.
         </p>
       </div>
-    </div>
   </footer>
 </template>
