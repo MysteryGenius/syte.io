@@ -8,7 +8,7 @@
 		  	</div>
 		  	<div class="p-6">
 		  		<h4 class="font-bold mb-4">Where can you find us?</h4>
-		  		<p class="mb-4">Visit our Instagram, <a href="https://www.instagram.com/syte.io/" class="text-blue-600 hover:text-blue-500" target="_blank">@syte.io</a> for more information, pictures and collaborations!</p>
+		  		<p class="mb-4">Visit our Instagram, <a href="https://www.instagram.com/syte.sg/" class="text-blue-600 hover:text-blue-500" target="_blank">@syte.sg</a> for more information, pictures and collaborations!</p>
 
 		  		<p class="mb-6">Follow our tiktok, <a href="https://www.tiktok.com/@syteio/" class="text-blue-600 hover:text-blue-500" target="_blank">@syte.io</a> for the location directions, interior & good food.</p>
 
