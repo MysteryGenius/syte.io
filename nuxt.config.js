@@ -5,8 +5,10 @@ export default {
   target: 'static',
 
   loading: {
-    color: 'blue',
-    height: '5px'
+    color: '#BFDBFE',
+    failedColor: '#F87171',
+    height: '3px',
+    continuous: true,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
