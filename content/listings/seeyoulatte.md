@@ -1,7 +1,7 @@
 ---
 description: Looking for a quiet, yet scenic cafe to spend some time with your friends
-  or hold a discussion? This cute little cafe holds all you need - wifi, chargers,
-  coffee & cakes. We highly recommend trying their ice blended drinks, especially
+  or hold a discussion? This cute little cafe holds all you need - fast Wi-Fi, charging
+  points, coffee & cakes. We highly recommend trying their ice blended drinks, especially
   the Hazelnut!
 affordability: "$"
 title: SeeYouLatte
