@@ -23,7 +23,7 @@
           <div class="hidden md:flex md:items-center md:space-x-12">
             <NuxtLink to="/about" class="navlink">About</NuxtLink>
 
-            <NuxtLink to="/locations" class="navlink">Locations</NuxtLink>
+            <NuxtLink to="/location" class="navlink">Locations</NuxtLink>
 
             <NuxtLink to="/contact" class="navlink">Contact</NuxtLink>
           </div>
